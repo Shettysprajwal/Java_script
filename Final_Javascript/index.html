@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+       
+//         /* variable declaration
+//         let a;
+//         initialization
+//         a = 10;
+//         */
+
+//         var password=1234;
+//         console.log(password);
+//         var password="krish";
+//         console.log(password);
+//         /* with var keyword we can reinitialize and redeclare the values 
+//         global scoped
+//         */
+
+//         let a=10;
+//         console.log(a);
+//         a="krishna";
+//         console.log(a);
+//         /* with let keyword we can reinitialize but redeclaration is not possible
+//         block scoped.
+//         */
+       
+//        const pi=3.142;
+//        console.log(pi);
+//        console.error("this is error message");
+//        console.warn("this is warning message");
+//        console.info("this isinfo")
+//        /* with the help of const we can't redeclareb or reinitialize tha variable
+//        block scoped.
+        
+//         */
+//        /* operators 
+//        a)ari(math):+ - * / % ** ++  -- 
+//        b)assign:= += != *= /= %=
+//        c)logic
+//        d)bitwise
+//        e)comparision
+//        f)conditional(ternary)
+
+//        */
+//       console.log(10+20);
+//       console.log(10-20);
+//       console.log(10*20);
+//       console.log(10/20);
+//       console.log(10%20);
+//       console.log(10**2);
+// let a1=10;
+//     //   console.log(a1++);
+//       console.log(++a1);
+
+// var x=10;
+// var y=9;
+// console.log(x++ + y-- + --y + ++x);
+// var x=10;
+// var y=9;
+// console.log(y++ - y-- + ++x + ++y);
+
+// var x=10;
+// var y=9;
+// console.log(x++ + x-- - --y + ++y);
+
+
+// b=9;
+// console.log(b++)
+// console.log(b)
+
+// x=9,y=10,z=8
+// a=console.log(x++ + y++ +x-- - --z + ++z)
+// a=console.log(y++ - y-- - y++ - --x + --z)
+// a=9 , b=10, z=8
+// a=console.log(b++ - --a + --z)
+// let number=10;
+//     if(number % 2 ==0){
+//         console.log("even");
+//     }
+//     console.log("not");
+
+// let no=10;
+//     if(no % 2 != 0){
+//         console.log("even");
+//     }
+//     console.log("not");
+
+// let sample=9;
+//     if(sample >=0){
+//         console.log("positive");
+//     }
+//        console.log(not);
+/* data types */
+/* let string="Anu";
+let n1=10;
+let m1=true;
+let n3;
+let m4=null;
+ console.log(typeof string);
+ console.log(typeof n1);
+ console.log(typeof m1);
+ console.log(typeof n3);
+ console.log(typeof m4);
+ let person={
+    name:"Anu",
+    age:20,
+    gender:"female"
+
+ }
+ console.log(person);
+ console.log(person.name);
+
+
+
+let person1=new Object();
+person1.name="XYZ";
+person1.age=30;
+person1.gender="male";
+console.log(person1);
+ */
+
+/* class in js */
+/* class is a blueprint of an object 
+syntax:
+
+class class_name{
+
+//codes;
+}
+*/
+
+// /* conditionsl control statements */
+// a=20;
+// if(a==10)
+// {
+//     console.log("a is 10");
+// }
+
+// /* if .. else */
+// if(a==12)
+// {
+//     console.log(a);
+// }
+// else{
+//     console.log("a is not 12");
+// }
+
+// // let grade='A';
+// let marks=0;
+// if(marks>=90)
+// {
+//     console.log('A');
+// }
+// else if(marks>=80)
+// {
+//     console.log('B')
+// }
+// else if(marks>=60)
+// {
+//     console.log('C')
+// }
+// else if(marks>=40)
+// {
+//     console.log('D')
+// }
+// else
+// {
+//     console.log('F');
+//     console.log("fail");
+// }
+// // alert("Enter Your Choice ");
+// let n=prompt("Enter Your Choice ");
+// switch(n)
+// {
+// case 'A':console.log("Marks >=90");
+// console.log('A');
+// break;
+// case 'B':console.log("Marks >=80");
+// console.log('B');
+// break;
+// case 'C':console.log("Marks >=60");
+// console.log('C');
+// break;
+// case 'D':console.log("Marks >35");
+// console.log('D');
+// break;
+// case 'E':console.log("Marks <=35");
+// console.log('E');
+// break;
+// default:
+//     console.log("Invalid");
+// }
+
+// arithmetic calci
+// let operation = prompt("Enter Your operation(+ ,-,*,/,%): ");
+// let a = parseFloat(prompt("Enter the first number"));
+// let b = parseFloat(prompt("Enter the second number"));
+
+/* switch(operation) { 
+    case '+':
+        console.log(a + b);
+        break;
+    case '-':
+        console.log(a - b);
+        break;
+    case '*':
+        console.log(a * b);
+        break;
+    case '/':
+        console.log(a / b);
+        break;
+    case '%':
+        console.log(a % b);
+        break;
+    case '**':
+        console.log(a ** b);
+        break;
+    default:
+        console.log("Invalid operation");
+}
+
+// looping controls
+/* for loop is used when we know both initial and ending point  
+for loop is known as entry control loop
+syntax:
+for(initialization;condition;increment/decrement)
+*/
+// for(let nm=1;nm<10;nm=nm+2)
+// {
+//     console.log(nm);
+// }
+
+// even no range 0-100
+// for(let nm=0;nm<=100;nm=nm+2)
+// {
+//     console.log(nm);
+// }
+
+//odd no range 0-100
+// for(let nm=1;nm<=100;nm=nm+2)
+// {
+//     console.log(nm);
+// }
+
+//multiple tables
+// let multi=parseInt(prompt("enter the number"));
+// let range=parseInt(prompt("enter the range"));
+
+// for(let i=1;i<=range;i++){
+//     let res = i * multi;
+//     console.log( `${res}=${i}*${multi}`);
+// }
+
+// check prime or not and print range 0-100
+/* let d=0;
+let numb=0;
+for(let i=2;i<=numb; i++)
+{
+    if(numb % i == 0){
+        d++;
+    }
+}
+if(c==0){
+    console.log("prime no");
+}
+ */
+
+/*while loop
+Entry control loop
+syntax
+while(condition)
+{
+
+}
+*/
+
+/* print numbers from 1 to 10 */
+/* let num1=1;
+while(num1<=10)
+{
+    console.log(num1);
+    num1++;
+} */
+
+/* do while loop 
+this is an exit control loop
+do
+{
+
+}while(condition);
+*/
+/* print numbers from 1 to 10 */
+/* let num2=0;
+do{
+    console.log(num2);
+    num2++;
+}while(num2<=10);
+ */
+// let initial=aler("Enter initial value");
+// let end=prompt("Enter end value");
+
+// for(let i=initial;i<=end;i++)
+// {
+
+// }
+
+/* functions 
+syntax: 
+
+function function_name(parameter){
+//codes
+}
+
+calling of a function
+function_name(list of arguments)
+*/
+//named function
+// function add(a, b){
+// console.log(a+b);
+// }
+// add(8,1);
+
+/* Anonomous */
+// let new_function=function(a,b)
+// {
+    
+//     console.log(a+b);
+// }
+// new_function(1,7);
+
+/* Arrow function */
+// let new_function1=(a,b)=>console.log(a*b);
+// new_function1(2,5);
+
+/* IIFE:IMMEDIATELY INVOKING FUNCTION EXECUTION */
+//  (function(a,b)
+//  {
+//     console.log(a*b);
+//  }
+// )
+// (9,1);
+
+// examples of calci using function
+// function power(a,b){
+// console.log(a**b);
+// }
+// power(8,1);
+
+// let new_add=function(a,b)
+// {
+    
+//     console.log(a+b);
+// }
+// new_add(1,7);
+
+
+// let new_multiply=(a,b)=>console.log(a*b);
+// new_multiply(2,5);
+
+// (function(a,b)
+//  {
+//     console.log(a/b);
+//  }
+// )
+// (9,1);
+
+
+
+// /* Arrays */
+// let name="laxmi";
+// let name1="sai";
+// let number=[2,1,4];
+
+// /* Array  */
+// let a1=new Array();//declaration and creation of an array
+// a1[0]=20;//initialization of array
+
+// let a2=[0,9,0];
+// a2[3]=30;
+// console.log(a2);
+// console.log(a2[3]);
+// /* array is containing indexing
+// array index starts with 0
+// array ends with the index of n-1
+// */
+
+// /* Arrays method */
+// let a3=[1,2,3,4,5,6,7,8];
+// console.log(a3.length);//length of an array
+// console.log(a3.shift());
+// console.log(a3)
+// console.log(a3.unshift(80));
+// console.log(a3);
+// console.log(a3.pop());
+// console.log(a3);
+// console.log(a3.push(5));
+// console.log(a3);
+
+// console.log(a3.indexOf(5,2));
+// console.log(a3.indexOf(1));
+// console.log(a3.sort());
+
+// let e3=[11,8,1,9,6,17,29];
+// console.log(e3.sort());
+
+// function sortArray(){
+//     return e3.sort(function(a,b){
+//         return b-a;
+//         })
+// }
+// console.log(sortArray());
+
+///let a=[2,3,4,5,6,7];
+
+// const res=a.map(x=>x*2);
+// console.log(res);
+
+
+//STRINGS
+let str2="how are u ?";
+let str="hello,world!"
+console.log(str.length);
+console.log(str.toUpperCase());
+console.log(str.toLowerCase());
+console.log(str.indexOf("l"));
+console.log(str.indexOf("l",2));
+console.log(str.indexOf("l",3));
+console.log(str.indexOf("l",4));
+console.log(str.charAt(1));
+console.log(str.charCodeAt(2));
+console.log(str.slice(2,5));
+console.log(str.slice(2));
+console.log(str.slice(-3,-1));
+console.log(str.concat(str2));
+console.log(str.match('world'));
+console.log(str.substr(7,5));
+console.log(str.replace("world","earth"));
+console.log(str2.trim());
+
+
+
+</script>
+</head>
+<body>
+    
+</body>
+</html>
