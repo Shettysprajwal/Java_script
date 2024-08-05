@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Sign IN</title>
+    <link rel="stylesheet" href="../css/signin.css">
+</head>
+<body>
+
+    <div class="container" id="signInContainer">
+        <h1>Sign In</h1>
+        <form id="signInForm">
+            <input type="email" id="signInEmail" placeholder="Email or mobile number" required>
+            <input type="password" id="signInPassword" placeholder="Password" required>
+            <input type="submit" value="Sign In">
+        </form>
+        <div class="options">
+            <p><a href="#" id="forgotPassword">Forgot password?</a></p>
+            <p>New to Netflix? <a href="#" id="goToSignUp">Sign up now.</a></p>
+        </div>
+    </div>
+
+    <div class="container" id="signUpContainer" style="display: none;">
+        <h1>Sign Up</h1>
+        <form id="signUpForm">
+            <input type="text" id="signUpName" placeholder="Name" required>
+            <input type="email" id="signUpEmail" placeholder="Email" required>
+            <input type="password" id="signUpPassword" placeholder="Password" required>
+            <input type="submit" value="Sign Up">
+        </form>
+        <div class="options">
+            <p>Already have an account? <a href="#" id="goToSignIn">Sign in now.</a></p>
+        </div>
+    </div>
+<script src="Script.js">
+  
+</script>
+</body>
+</html>
